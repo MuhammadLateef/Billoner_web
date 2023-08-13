@@ -5,9 +5,41 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(28 29 35/var(--tw-bg-opacity));
+  overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h2 , p , a , h3 , button , span , li{
+   font-family: Poppins,Arial,sans-serif !important;
 }
+
+
+/* slick slider */
+
+.slick-slide>div {
+  margin: 0 10px;
+}
+
+.slick-list {
+  margin: 0 -10px;
+}
+.input-field:hover {
+  border: 1px solid #fff;
+  /* Replace with your preferred border color */
+  outline: none;
+  /* Remove default focus outline */
+}
+
+.input-field::placeholder {
+  color: white;
+  /* Set the color of the placeholder text */
+  font-size: 1rem;
+}
+
+.input-field:focus::placeholder {
+  color: #818385;
+  /* New color for placeholder text on focus */
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

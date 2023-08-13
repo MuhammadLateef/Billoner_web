@@ -1,0 +1,47 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1717 1689" width="1717" height="1689">
+	<title>img-svg</title>
+	<defs>
+		<linearGradient id="g1" x1="1289.3" y1="545.4" x2="121.5" y2="572.5" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+			<stop offset=".1" stop-color="#ffffff" stop-opacity=".5"/>
+			<stop offset=".2" stop-color="#ffffff" stop-opacity=".8"/>
+			<stop offset=".4" stop-color="#ffffff" stop-opacity=".9"/>
+			<stop offset=".5" stop-color="#ffffff"/>
+			<stop offset=".6" stop-color="#ffffff" stop-opacity=".9"/>
+			<stop offset=".8" stop-color="#ffffff" stop-opacity=".7"/>
+			<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+		</linearGradient>
+		<linearGradient id="g2" x1="-276.7" y1="1451.7" x2="728.1" y2="1565.8" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#ffffff"/>
+			<stop offset=".2" stop-color="#ffffff"/>
+			<stop offset=".4" stop-color="#ffffff"/>
+			<stop offset=".6" stop-color="#ffffff" stop-opacity=".8"/>
+			<stop offset=".8" stop-color="#ffffff" stop-opacity=".5"/>
+			<stop offset="1" stop-color="#ffffff" stop-opacity=".1"/>
+		</linearGradient>
+		<linearGradient id="g3" x1="1059.5" y1="1540.1" x2="1493.2" y2="1094.7" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#ffffff"/>
+			<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+		</linearGradient>
+		<linearGradient id="g4" x1="1479.2" y1="1348.7" x2="1101.4" y2="1192.4" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#ffffff"/>
+			<stop offset=".5" stop-color="#ffffff" stop-opacity=".8"/>
+			<stop offset=".6" stop-color="#ffffff" stop-opacity=".6"/>
+			<stop offset=".8" stop-color="#ffffff" stop-opacity=".2"/>
+			<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: url(#g1) } 
+		.s1 { fill: url(#g2) } 
+		.s2 { fill: url(#g3) } 
+		.s3 { fill: url(#g4) } 
+		.s4 { fill: #ffffff } 
+	</style>
+	<path id="Layer" fill-rule="evenodd" class="s0" d="m197.3 572.1c2.6 27.2 21.8 64.4 59.8 96.8l0.3 0.3c74.4 64 216.2 102.1 371.5 22.2l443.2-236q0 0 0.1 0c93-49.9 194.9-60.3 289.2-43.9 41.3 7.1 68.9 45.8 61.6 86.3-7.3 40.5-46.7 67.6-88 60.5-65.2-11.3-131.3-3.6-190.1 27.9l-0.2 0.2-443.8 236.3q-0.5 0.2-0.9 0.5c-211.2 108.8-421 62.6-542.6-41.8-58.6-49.9-104.1-119.8-111.3-195.3-7.9-82.3 31.4-159.5 119-205.4 37-19.5 83-5.8 102.8 30.5 19.7 36.3 5.7 81.5-31.3 100.9-35.5 18.6-41.3 39.6-39.3 60z"/>
+	<path id="Layer" fill-rule="evenodd" class="s1" d="m59.9 840.7c-107.3-150.5-69.4-366.9 104.6-459.8 36.9-19.7 83-6.4 103 29.8 20.1 36.1 6.5 81.4-30.4 101.1-87.8 46.9-112.5 159.7-52.7 243.4l506.8 710.4c59.6 83.5 177.9 98.5 251.1 34.8 31.4-27.3 79.4-24.4 107.2 6.4 27.9 30.8 25 77.9-6.4 105.2-146.4 127.2-368.7 89.9-476.3-60.8z"/>
+	<path id="Layer" fill-rule="evenodd" class="s2" d="m1576.3 1047.3c27.8 30.8 25 77.9-6.4 105.3l-526.8 459.3c-31.4 27.3-79.4 24.6-107.2-6.2-27.9-30.8-25-77.9 6.3-105.2l526.8-459.3c31.4-27.4 79.4-24.6 107.3 6.1z"/>
+	<path id="Layer" fill-rule="evenodd" class="s3" d="m1294.7 469.6c10.6-39.9 52-63.8 92.6-53.4 98.1 25 187.9 81.1 251.2 169.7 126.3 177.1 96.4 422.1-68.5 566.6l-526.9 459.4c-31.4 27.3-79.4 24.6-107.2-6.2-27.9-30.8-25-77.9 6.3-105.2l526.7-459.2q0-0.1 0.1-0.1c107.8-94.5 126.8-255.1 45-369.8-40.9-57.3-99-94.1-164.9-110.9-40.6-10.4-65-51.1-54.4-90.9z"/>
+	<path id="Layer" fill-rule="evenodd" class="s4" d="m134.8 483.2c-20.7-35.8-7.9-81.3 28.6-101.7 78.1-43.5 234-126.2 369.4-197.5 68-35.7-46 24.1 0.1 0 0 0 218.9-114.8 232-121.6l20-10.5q0.1 0 0.2-0.1c194.6-102.5 439.3-46.3 565.7 130.8 63.2 88.6 86.2 190.7 76.6 289.7q-0.3 2.9-0.9 5.9l-3.5 19.6c-16.6 92.6-61.4 183-141 251.7-31.5 27.3-79.5 24.2-107.2-6.7-27.7-30.9-24.7-78 6.8-105.1 50.3-43.5 80.3-101.8 91.8-165.8l3-16.5c5.8-65.6-9.8-130.7-50.1-187.3-81.8-114.7-242.1-152.1-369.5-84.9l-0.4 0.2-20.2 10.6-231.6 121.4c-135.9 71.5-290 153.2-366.2 195.7-36.5 20.4-82.9 7.8-103.6-27.9z"/>
+	<path id="Layer" fill-rule="evenodd" class="s4" d="m1365 392c41.3 7.1 68.9 45.8 61.6 86.3l-3.5 19.6c-16.6 92.6-61.4 182.9-141 251.7q0 0-0.1 0.1l-377.5 328c-129.5 115.9-141.6 259.7-105.7 350.3l0.2 0.6c16.8 43.6 45.4 72.8 71.2 84.4 21.1 9.5 44.8 10.2 73.7-13.7 32.1-26.5 80-22.5 107 9 27 31.5 22.9 78.5-9.2 105-73.9 61.1-160.3 68.8-234.9 35.2-69.7-31.4-122.1-95.3-149.8-166.9-58.3-147.8-30.8-357 145.7-514.5q0.4-0.3 0.7-0.7l378.1-328.5 0.2-0.1c50.3-43.4 80.3-101.7 91.8-165.8l3.5-19.6c7.3-40.5 46.7-67.6 88-60.4z"/>
+</svg>

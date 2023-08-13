@@ -1,0 +1,175 @@
+// change the theme
+
+$primaryColor :linear-gradient(270deg,#ffd178 9.13%,#ffbe9f 91.81%);
+
+
+$seconndaryColor :#414141;
+
+
+$theme-colors: (
+  "primary": #0074d9,
+  "danger": #ff4136
+);
+
+
+@import './App.css';
+@import './index.css';
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+
+a{
+  text-decoration: none;
+}
+
+//colors 
+.c-yellow{
+  //color: rgb(255 209 120);
+  --tw-gradient-from: #ffd178;
+    --tw-gradient-to: rgba(255,209,120,0);
+    --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to);
+    --tw-gradient-to: #ffbe9f;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right,var(--tw-gradient-stops));
+}
+.c-pink{
+  --tw-gradient-from: #ff93ff 8.89%;
+    --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to);
+    --tw-gradient-to: hsla(0,0%,100%,0);
+    --tw-gradient-stops: var(--tw-gradient-from),#ffadc7 12.36%,var(--tw-gradient-to);
+    --tw-gradient-to: #ffbe9f 86.58%;
+}
+
+.c-blacksh{
+  background: "rgba(0, 0, 0, 0.5)";
+}
+
+//end colors
+.nav-link {
+  font-family: Poppins,Arial,sans-serif;
+  font-size: 10.05px;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 1.5;
+  color:white;
+}
+.btn-primary{
+  background: linear-gradient(270deg,#ffd178 9.13%,#ffbe9f 91.81%);
+  border: none;
+  color: white;
+}
+.btn-secondary{
+  background: #414141;
+  box-shadow: 0 4px 4px rgba(0,0,0,.25);
+  border-radius: 16px;
+  line-height: 21px;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 12px!important;
+  border:none;
+}
+.btn-secondary  :hover{
+  background: black;
+  color: white;
+}
+
+
+
+.lead{
+  font-size: 14px;
+}
+
+.card-black{
+  background-color: rgb(28 29 35/var(--tw-bg-opacity));
+}
+
+.card-dark{
+    padding: 32px 56px;
+    border-radius: 40px;
+    background: hsla(0,0%,100%,.02);
+    box-shadow: inset 1px 1px 2px 0 hsla(0,0%,100%,.07);
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+}
+
+/* ImageCard.css */
+.image-card-container {
+  width: 100%;
+  overflow-x: scroll; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent images from wrapping to a new line */
+}
+
+.image-card-scroll {
+  display: flex; /* Use Flexbox to layout the images in a row */
+  padding: 8px; /* Optional: Add some padding to the container */
+}
+
+.image-card {
+  flex: 0 0 auto; /* Ensure the images don't grow or shrink */
+  margin-right: 8px; /* Optional: Add some spacing between images */
+  width: 200px; /* Set a fixed width for each image card */
+}
+
+.image-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Optional: Add border radius for rounded corners */
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .image-card {
+    width: 150px; /* Adjust the width for mobile devices */
+  }
+}
+
+
+[data-rk]{
+  --rk-blurs-modalOverlay:blur(0px);
+  --rk-fonts-body:SFRounded, ui-rounded, "SF Pro Rounded", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --rk-radii-actionButton:9999px;
+  --rk-radii-connectButton:12px;
+  --rk-radii-menuButton:12px;
+  --rk-radii-modal:24px;
+  --rk-radii-modalMobile:28px;
+  --rk-colors-accentColor:#3898FF;
+  --rk-colors-accentColorForeground:#FFF;
+  --rk-colors-actionButtonBorder:rgba(255, 255, 255, 0.04);
+  --rk-colors-actionButtonBorderMobile:rgba(255, 255, 255, 0.08);
+  --rk-colors-actionButtonSecondaryBackground:rgba(255, 255, 255, 0.08);
+  --rk-colors-closeButton:rgba(224, 232, 255, 0.6);
+  --rk-colors-closeButtonBackground:rgba(255, 255, 255, 0.08);
+  --rk-colors-connectButtonBackground:#1A1B1F;
+  --rk-colors-connectButtonBackgroundError:#FF494A;
+  --rk-colors-connectButtonInnerBackground:linear-gradient(0deg, rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.15));
+  --rk-colors-connectButtonText:#FFF;
+  --rk-colors-connectButtonTextError:#FFF;
+  --rk-colors-connectionIndicator:#30E000;
+  --rk-colors-downloadBottomCardBackground:linear-gradient(126deg, rgba(0, 0, 0, 0) 9.49%, rgba(120, 120, 120, 0.2) 71.04%), #1A1B1F;
+  --rk-colors-downloadTopCardBackground:linear-gradient(126deg, rgba(120, 120, 120, 0.2) 9.49%, rgba(0, 0, 0, 0) 71.04%), #1A1B1F;
+  --rk-colors-error:#FF494A;
+  --rk-colors-generalBorder:rgba(255, 255, 255, 0.08);
+  --rk-colors-generalBorderDim:rgba(255, 255, 255, 0.04);
+  --rk-colors-menuItemBackground:rgba(224, 232, 255, 0.1);
+  --rk-colors-modalBackdrop:rgba(0, 0, 0, 0.5);
+  --rk-colors-modalBackground:#1A1B1F;
+  --rk-colors-modalBorder:rgba(255, 255, 255, 0.08);
+  --rk-colors-modalText:#FFF;
+  --rk-colors-modalTextDim:rgba(224, 232, 255, 0.3);
+  --rk-colors-modalTextSecondary:rgba(255, 255, 255, 0.6);
+  --rk-colors-profileAction:rgba(224, 232, 255, 0.1);
+  --rk-colors-profileActionHover:rgba(224, 232, 255, 0.2);
+  --rk-colors-profileForeground:rgba(224, 232, 255, 0.05);
+  --rk-colors-selectedOptionBorder:rgba(224, 232, 255, 0.1);
+  --rk-colors-standby:#FFD641;
+  --rk-shadows-connectButton:0px 4px 12px rgba(0, 0, 0, 0.1);
+  --rk-shadows-dialog:0px 8px 32px rgba(0, 0, 0, 0.32);
+  --rk-shadows-profileDetailsAction:0px 2px 6px rgba(37, 41, 46, 0.04);
+  --rk-shadows-selectedOption:0px 2px 6px rgba(0, 0, 0, 0.24);
+  --rk-shadows-selectedWallet:0px 2px 6px rgba(0, 0, 0, 0.24);
+  --rk-shadows-walletLogo:0px 2px 16px rgba(0, 0, 0, 0.16);
+  
+}
